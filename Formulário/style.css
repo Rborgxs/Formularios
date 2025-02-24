@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 500px;
+  padding: 30px;
+  margin-top: 10px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(34, 36, 35);
+  font-family: Helvetica;
+}
+
+form {
+  width: 500px;
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: solid 5px rgb(134, 50, 50);
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+input {
+  border: solid 0.5px rgb(117, 46, 46);
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 2px;
+  width: 300px;
+  height: 25px;
+  font-family: Segoe UI;
+  background-color: #2224230e;
+}
+
+.check {
+  width: 15px;
+  height: 20px;
+}
+
+label {
+  font-family: Segoe UI;
+  font-weight: 500;
+}
+
+button {
+  font-size: 20px;
+  font-family: Segoe UI;
+  font-weight: 500;
+  padding: 10px;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 15px;
+  background-color: rgb(110, 22, 22);
+  color: rgb(240, 240, 240);
+}
+
+p {
+  font-family: Segoe UI;
+}
+
+#condicao {
+  font-weight: 600;
+}
+
+h1 {
+  font-family: Segoe UI;
+  font-weight: 620;
+  color: #530303;
+}
+
+h4 {
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a {
+  color: #8b0000;
+}
+
+.logo{
+  font-size: 60px;
+  text-align: center;
+  font-family: Cambria;
+  font-weight: 500;
+  color: rgb(248, 240, 240);
+}
+
+select{
+  border: solid 0.5px rgb(117, 46, 46);
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 2px;
+  width: 300px;
+  height: 25px;
+  font-family: Segoe UI;
+  background-color: #2224230e;
+  color: black;
+}
+option{
+
+  color: #0f0e0e;
+}
+
+#linkbotao{
+  text-decoration: none;
+  color: white;
+}
+
+textarea{
+  border: solid 0.5px rgb(117, 46, 46);
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 2px;
+  width: 300px;
+  height: 25px;
+  font-family: Segoe UI;
+  background-color: #2224230e;
+  color: black;
+}

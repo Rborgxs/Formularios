@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro Ruby</title>
+  </head>
+  <body>
+    <img src="fundo.svg" alt="Logo" />
+    <h1 class="logo">Ruby</h1>
+    <form action="reserva.html">
+      <h1>Cadastre-se</h1>
+      <br />
+      <label for="nome">Usuário</label><br />
+      <input type="text" id="nome" placeholder="Nome ou apelido" required />
+      <br /><br />
+
+      <label for="email">Email</label><br />
+      <input
+        type="email"
+        id="email"
+        placeholder="Endereço eletrônico"
+        required
+      />
+      <br /><br />
+
+      <label for="number">Celular</label><br />
+      <input type="tel" id="numero" placeholder="Número de telefone" required />
+      <br /><br />
+
+      <label for="date">Data de Nascimento</label><br />
+      <input type="date" id="data" required />
+      <br /><br />
+
+      <h4>Termos</h4>
+      <p id="condicao">
+        <input type="checkbox" class="check" required />
+        Concordar com os termos de condições de uso aos nossos serviços.
+      </p>
+      <br />
+      <p>
+        <input type="checkbox" class="check" />
+        Permitir o tratamento de dados opcionais afim de melhorar o diagnóstico
+        do site.
+      </p>
+      <br />
+
+      <button type="submit">Entrar</button>
+
+      <p>
+        <br />
+        Já possui uma conta?
+        <strong>
+          <a href="">Faça login</a>
+        </strong>
+      </p>
+    </form>
+  </body>
+</html>

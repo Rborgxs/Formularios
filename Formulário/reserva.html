@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reserva Ruby</title>
+</head>
+
+<body>
+  
+    <form action="concluido.html">
+        <h1>Agora, faça sua reserva...</h1>
+        <br />
+        <label for="data">Data</label><br />
+        <input type="date" id="data" required />
+        <br /><br />
+
+        <label for="data">Horário de início</label><br />
+        <input type="time" id="inicio" required />
+        <br /><br />
+
+        <label for="data">Horário de Fim</label><br />
+        <input type="time" id="fim" required />
+        <br /><br />
+
+        <label for="sala">Tipo de sala</label><br />
+        <select name="Tipo de sala" id="sala">
+            <option value="individual">Individual</option>
+            <option value="reuniao">Reunião</option>
+            <option value="treinamento">Treinamento</option>
+        </select>
+        <br /><br />
+
+        <label for="participantes">Número de Participantes</label>
+        <input type="number" required placeholder="Quantidade de pessoas" max="50" min="1">
+        <br /><br />
+
+        <button type="submit">Finalizar</button>
+</body>
+
+</html>
